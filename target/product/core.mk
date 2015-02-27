@@ -20,10 +20,7 @@
 # core_minimal.mk instead.
 
 PRODUCT_PACKAGES += \
-    BasicDreams \
-    Browser \
     Calculator \
-    Calendar \
     CalendarProvider \
     CaptivePortalLogin \
     CertInstaller \
@@ -36,9 +33,7 @@ PRODUCT_PACKAGES += \
     InputDevices \
     KeyChain \
     Keyguard \
-    LatinIME \
     ManagedProvisioning \
-    PicoTts \
     PacProcessor \
     libpac \
     PrintSpooler \
