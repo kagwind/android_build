@@ -666,6 +666,7 @@ LOCAL_DISABLE_GRAPHITE := \
 	fio \
 	libwebrtc_spl \
 	libpcap \
+	libsigchain \
 	libFraunhoferAAC \
 	libavformat \
 	libavcodec
