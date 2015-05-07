@@ -427,7 +427,8 @@ LOCAL_DISABLE_STRICT := \
     libjavacore \
     camera.msm8084 \
     libmmcamera_interface \
-    camera.hammerhead
+    camera.hammerhead \
+	tcpdump
 
 DISABLE_STRICT := \
     -fno-strict-aliasing
