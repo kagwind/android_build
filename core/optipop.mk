@@ -160,12 +160,6 @@ LOCAL_CPPFLAGS += \
 endif
 endif
 else
-LOCAL_FORCE_DISABLE_STRICT := \
-	libziparchive-host \
-	libziparchive \
-	libdiskconfig \
-	logd \
-	libjavacore
 
 ifeq (1,$(words $(filter $(LOCAL_FORCE_DISABLE_STRICT),$(LOCAL_MODULE))))
 ifdef LOCAL_CONLYFLAGS
