@@ -177,6 +177,9 @@ function setpaths()
         export ANDROID_TOOLCHAIN=$gccprebuiltdir/$toolchaindir
     fi
 
+    # Hardcoded custom toolchain
+    export ANDROID_TOOLCHAIN="/home/$USER/Data/android/toolchains/arm-linux-androideabi-4.8-uber/bin"
+
     if [ -d "$gccprebuiltdir/$toolchaindir2" ]; then
         export ANDROID_TOOLCHAIN_2ND_ARCH=$gccprebuiltdir/$toolchaindir2
     fi
@@ -190,6 +193,10 @@ function setpaths()
                  export ARM_EABI_TOOLCHAIN="$gccprebuiltdir/$toolchaindir"
                  ANDROID_KERNEL_TOOLCHAIN_PATH="$ARM_EABI_TOOLCHAIN":
             fi
+
+            # Hardcoded custom toolchain
+            export ARM_EABI_TOOLCHAIN="/home/$USER/Data/android/toolchains/arm-cortex_a15-linux-gnueabihf-linaro_4.9/bin"
+
             ;;
         *)
             # No need to set ARM_EABI_TOOLCHAIN for other ARCHs
