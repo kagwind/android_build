@@ -428,7 +428,8 @@ LOCAL_DISABLE_STRICT := \
     camera.msm8084 \
     libmmcamera_interface \
     camera.hammerhead \
-	tcpdump
+	tcpdump \
+	gatt_testtool
 
 DISABLE_STRICT := \
     -fno-strict-aliasing
