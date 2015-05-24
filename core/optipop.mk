@@ -271,6 +271,8 @@ LOCAL_DISABLE_O3 := \
 
 LOCAL_O3_EXTRAS_FLAGS := -fno-inline-functions
 
+LOCAL_O3_EXTRAS_FLAGS += -Wno-array-bounds
+
 ifeq ($(TARGET_DEVICE),shamu)
     LOCAL_O3_EXTRAS_FLAGS += -fno-tree-vectorize
 endif
