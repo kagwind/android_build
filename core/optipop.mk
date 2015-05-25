@@ -267,7 +267,8 @@ LOCAL_DISABLE_O3 := \
     $(WEBCHROMIUM_STATIC_LIBRARIES) \
 	libwebviewchromium \
 	libwebviewchromium_loader \
-	libwebviewchromium_plat_support
+	libwebviewchromium_plat_support \
+	libopus
 
 LOCAL_O3_EXTRAS_FLAGS := -fno-inline-functions
 
