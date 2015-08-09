@@ -178,7 +178,7 @@ function setpaths()
     fi
 
     # Hardcoded custom toolchain
-    export ANDROID_TOOLCHAIN="/home/$USER/Data/android/toolchains/arm-linux-androideabi-4.8-uber/bin"
+    export ANDROID_TOOLCHAIN="/home/$USER/Data/android/toolchains/arm-linux-androideabi-4.9-uber/bin"
 
     if [ -d "$gccprebuiltdir/$toolchaindir2" ]; then
         export ANDROID_TOOLCHAIN_2ND_ARCH=$gccprebuiltdir/$toolchaindir2
